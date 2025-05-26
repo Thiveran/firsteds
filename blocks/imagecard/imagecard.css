@@ -1,0 +1,39 @@
+.imagecard-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  justify-content: space-between;
+}
+ 
+.imagecard-wrapper > .imagecard > div {
+  position: relative;
+  width: calc(25% - 12px); /* 4 cards per row with spacing */
+  height:200px;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+ 
+.imagecard-wrapper picture,
+.imagecard-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+ 
+.imagecard-wrapper p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 8px 12px;  
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 0;
+  width: 50%;
+  box-sizing: border-box;
+}
+

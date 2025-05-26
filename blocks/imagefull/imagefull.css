@@ -1,0 +1,28 @@
+.imagefull-wrapper {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+ 
+.imagefull {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+ 
+.imagefull > div:first-child {
+  flex: 1 1 100%;
+}
+ 
+.imagefull picture,
+.imagefull img {
+  width: 1200px;
+  height: auto;
+  display: block;
+}
+ 
+.imagefull > div:last-child {
+  flex: 1 1 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
